@@ -42,6 +42,8 @@ func (a *App) RegisterHotKey() {
 }
 
 func registerHotkey(a *App) {
+	// the actual shortcut keybind - Ctrl + Shift + S
+	// for more info - refer to the golang.design/x/hotkey documentation
 	hk := hotkey.New([]hotkey.Modifier{hotkey.ModCtrl, hotkey.ModShift}, hotkey.KeyS)
 	err := hk.Register()
 	if err != nil {
