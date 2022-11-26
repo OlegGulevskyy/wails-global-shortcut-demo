@@ -21,6 +21,14 @@
     margin: 1.5rem auto;
 }
 
+.input {
+	margin-bottom: 20px;
+}
+
+.disclaimer {
+	color: slategray;
+}
+
 .input-box .btn {
     width: 60px;
     height: 30px;
